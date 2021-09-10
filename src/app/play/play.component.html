@@ -1,0 +1,21 @@
+<p>play works!</p>
+
+<mat-expansion-panel class="toolbarNav" (opened)="panelOpenState = true" (closed)="panelOpenState = false" hideToggle>
+
+  <mat-expansion-panel-header class="play_header">
+    <mat-panel-title class="mpt">
+      <mat-icon>{{panelOpenState ? 'expand_more' : 'expand_less'}}</mat-icon>
+    </mat-panel-title>
+<!--    <mat-panel-description>-->
+<!--      Currently I am {{panelOpenState ? 'open' : 'closed'}}-->
+<!--    </mat-panel-description>-->
+  </mat-expansion-panel-header>
+  <p>
+    Many<br>
+    lines<br>
+    of <br>
+    text<br>
+  </p>
+
+</mat-expansion-panel>
+
